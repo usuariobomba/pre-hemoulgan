@@ -190,7 +190,7 @@
         // ========================================
         // CONFIGURAÇÃO: Cole seu link de destino aqui
         // ========================================
-        const urlDestino = "https:helthynutra.shop"; // ⬅️ ALTERE ESTE LINK
+        const urlDestino = "https://helthynutra.shop"; // ⬅️ ALTERE ESTE LINK
 
         // Função de redirecionamento com delay
         function verificarDisponibilidade() {
@@ -213,13 +213,7 @@
             }, 500);
         }
 
-        // Opcional: Prevenir navegação acidental durante o loading
-        window.addEventListener('beforeunload', function (e) {
-            if (document.getElementById('ctaButton').disabled) {
-                e.preventDefault();
-                e.returnValue = '';
-            }
-        });
+
     </script>
 
 </body>
